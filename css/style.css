@@ -1,0 +1,428 @@
+*{
+    box-sizing: border-box;
+}
+    /* body{
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size:cover;
+} */
+body{
+    background: #eee6e9;
+    /* opacity: 30%; */
+    height: 862px;
+width: 1600px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+}
+button.bounow{
+   margin-left: 210px;
+}
+
+button{
+    color: #f9f6f7;
+    background-color: #D23166;
+    
+    border-radius: 5px;
+    padding: 0px;
+    width: 165px;
+    height: 49px;
+    border-color: #fff;
+}
+button:hover{
+    color: rgb(24, 191, 232);
+    background-color: #dc5582;
+    text-shadow:0 0 5px #03e9f4, 0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 100px #03e9f4 ;
+}
+.picturi{
+    background-size:cover;
+    background-size:contain; 
+}
+.round{
+    background: #D23166;
+    opacity: 10%;
+     border-radius: 50%;
+      width: 365px;
+     height: 365px;
+     margin-top: 350px;
+     margin-right:50px ;
+     margin-bottom: 50px;
+     margin-left: 1010px;
+    }
+
+.drawing{
+    background:url(/imegis/020101363fa3be7e9bf81e7ec66e11fd.png) no-repeat center;
+    width: 500px;
+    height: 597px;
+    left: 889px;
+    top: 126px;
+
+    margin: -670px 950px;
+    /* margin-top: ;
+    margin-left: ;
+    margin-right: ;
+    margin-bottom: ; */ 
+
+    
+}
+.drawing_milk{
+    background:url(/imegis/7bc90134e9a8235dcf5eacacc71d5cf8.png)no-repeat center;
+    width: 850px;
+    height: 547px;
+    margin: 190px 770px;
+    /* top: -100px; */
+    background-size:contain;
+    
+}
+.footh_block{
+    background-color: #fff;
+    height: 200px;
+width: 100%;
+/* margin-left: 210px; */
+margin-top: 242px;
+display: flex;
+flex-direction: row;
+
+}
+.footh{
+width: 250px;
+height: 200px;
+margin: 33px 26px;
+
+}
+.footh.n1{
+    background:url(/imegis/Group\ 100.png) no-repeat;
+    margin-left: 210px;
+}
+.footh.n2{
+    background:url(/imegis/Group\ 98.png) no-repeat;
+}
+.footh.n3{
+    background:url(/imegis/Group\ 94.png) no-repeat;
+}
+.footh.n4{
+    background:url(/imegis/Group\ 96.png) no-repeat;
+}
+
+.pikturi{
+    margin: 100px 100 px;
+    width: 500px;
+    height: 547px;
+}
+.text1{
+    margin-top: -700px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 210px;
+    font-size:25px;
+}
+.text2{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 210px;
+    line-height: 5px;
+    font-family: 'Fredoka', sans-serif;
+
+}
+.color_text2{
+    color: #D23166;
+}
+.text3{
+     margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 210px;
+   
+}
+.block{
+    height: 656px;
+width: 1600px;
+
+}
+
+.block{
+    display: flex;
+}
+
+
+.text_parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 197px 210px;
+    width: 800px;
+}
+/* .text_block header{
+    position: absolute;
+    font-size: 44px;
+width: 349px;
+height: 98.27px;
+margin-left: 210px;
+margin-top: 141px;
+}
+.text_block p{
+    position: absolute;
+    width: 442px;
+height: 58.16px;
+margin-left: 210px;
+margin-top: 256px;
+}
+.text_block button{
+    margin-top: 364px;
+    margin-left: 210px; 
+}*/
+
+.picturi_block{
+    background: url(/imegis/nWvlMBTo86-removebg-preview\ 1.png) no-repeat center;
+    width: 655px;
+height: 656px;
+
+}
+
+.block2{
+    height: 2346px;
+width: 100%;
+background-color: #fff;
+}
+.price{
+    height: 1245px;
+width: 1160px;
+margin-left: 249px;
+margin-top: 50px;
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+@media(max-width:430px){
+    .price{
+       margin: 30px;
+    }
+}
+
+h1{
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 800;
+}
+
+.icecream{
+    width: 415px;
+    height: 415px;
+    width: 50%;
+}
+
+
+
+.icecream.i1{
+background: url(/imegis/Rectangle\ 74.png)no-repeat center;
+height: 415px;
+width: 580px;
+}
+.icecream.t{
+    padding-left: 50px;
+}
+.icecream.t div{
+padding-top: 30px;
+}
+.icecream.t button{
+    position: absolute;
+    height: 49px;
+width: 165px;
+margin-top: 30px;
+border-radius: 5px;
+margin-left: 0px;
+}
+.icecream.t p{
+    opacity: 70%;
+}
+s{
+    opacity: 70%;
+}
+.icecream.i2{
+    background: url(/imegis/Rectangle\ 78.png);
+    height: 415px;
+width: 580px;
+}
+.icecream.i3{
+    background: url(/imegis/Rectangle\ 79.png);
+    height: 415px;
+width: 580px;
+}
+
+
+
+
+
+.part._1 p{
+    font-family:Roboto;
+font-style:Medium;
+font-size:12px;
+}
+.part.ice{
+    background: url(/imegis/uLkF7xc5W6-removebg-preview\ 1.png);
+    height: 442px;
+    width: 564px;
+}
+.part._1 div p{
+    width:322px ;
+    height:53px ;
+    font-size: 17px;
+    opacity: 85%;
+    Line-height:24px;
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+}
+h2{
+    padding-left: 55px;
+}
+
+
+.fotto1{
+    background: url(/imegis/Ellipse\ 21.png);
+    height: 58px;
+width: 59px;
+margin-top: -117px;
+    margin-left: -16px;
+}
+.fotto2{
+    background: url(/imegis/mask5.png);
+    height: 35px;
+width: 35px;
+
+}
+.fotto3{
+    background: url(/imegis/Ellipse\ 21.png);
+    height: 59px;
+width: 59px;
+
+}
+.fotto4{
+    background: url(/imegis/Ellipse\ 21.png);
+    height: 35px;
+width: 35px;
+    background-size: contain;
+}
+.reviews{
+    height: 442px;
+width: 100%;
+display: flex;
+flex-direction: row;
+margin-top: 180px;
+padding-left: 320px;
+
+}
+@media(max-width:430px){
+.reviews{
+    margin-left: -200px;
+}
+
+}
+
+.reviews_par{
+    /* width: 300px;
+    height: 300px; */
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    height: 150px;
+    margin: 115px 5px;
+ align-items: baseline;
+}
+.part{
+    height: 442px;
+    width: 50%;
+}
+.block4_imegis{
+    background: url(/imegis/Mask\ Group.png);
+    width:305px;
+    height:627px;
+    margin-top: 56px;
+}
+.container{
+    display: flex;
+    gap: 134px;
+    
+}
+    .download{
+        margin-top: 90px;
+        width: 621px;
+    
+    }
+    .block4_head{
+font-size: 44px;
+font-weight: 500;
+    }
+.block4_p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0F0101;
+}
+.instruction{
+    font-size: 22px;
+    padding-top: 28px;
+    padding-left: 20px;
+}
+.block5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -45px;
+    width: 100%;
+    height: 545px;
+    background-color: #fff;
+    line-height: 67px;
+}
+.block5-text{
+    font-size:44px ;
+    font-weight: 500;
+    text-align: center;
+    width: 522px;
+}
+.block5 button{
+    width:134px ;
+    height:74px ;
+}
+.b5-input input{
+    height: 74px;
+width: 503px;
+border: 0;
+}
+.b5-input input:hover{
+    background-color: rgb(142, 184, 187);
+    border-radius: 15px;
+}
+.instruction.one::before{
+    content: url(/imegis/Group\ 91.png);
+    margin: 15px;
+}
+.instruction.two::before{
+    content: url(/imegis/Group\ 228.png);
+    margin: 15px;
+}
+.instruction.three::before{
+    content: url(/imegis/Group\ 113.png);
+    margin: 15px;
+}
+.block4_store{
+    display: flex;
+    width: 400px;
+    height: 80px;
+    padding-top: 40px;
+}
+.g_play{
+    background: url(/imegis/en_badge_web_generic-removebg-preview\ 1.png) no-repeat center;
+    width: 200px;
+    height: 70px;
+}
+.app_store{
+    background: url(/imegis/logo-app-store-brand-font-png-favpng-Gb5FcTZcrb9bRikX49s26mMVn-removebg-preview\ 1.png) no-repeat center;
+    width: 200px;
+    height: 70px;
+}
